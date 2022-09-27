@@ -1,1 +1,34 @@
 Machine learning is a subset of artificial intelligence which provides machines the ability to learn automatically and improve from experience without being explicitly programmed.
+
+Types of machine learning: -
+1. Supervised learning:
+Supervised learning is a type of machine learning where we teach the machine using labelled data.
+Problem Type: Regression (for continous variable), Classification(for classifying variables into different classes eg. spam and non-spam)
+2. Unsupervised Learning:
+In unsupervised learning the machine is treained on unlabelled data without any guidance.
+Problem Type: Association(discovering patterns in data eg. relation between bread and jam), Clustering(Targeted marketing, cluster customers based on their similarities), anomaly detection(Tracking credit card frauds)
+3. Reinforcement Learning:
+In reinforcement learning an agent interacts with its enviornment by producing actions and discovers errors or rewards.
+Training the machine to learn from its mistakes.
+Problem Type: Input itself depends upon the actions we take.
+
+Linear Regression (Least Squares): -
+y = mx + c
+y: dependent variable
+x: Independent variable
+m: slope
+c: constant
+
+Book: Think Stats
+
+Sensitivity = True Positives / (True Positives + False Negatives)
+Specificity = True Nagatives / (True Negatives + False Positives)
+
+We can use Sensitivity and Specificity to help us decide which machine learning method would be best for our data.
+If correctly identifying positives is the most important thing to do with the data, we should choose a method with higher sensitivity.
+If correctly identifying negatives is more important, than we should put more emphasis on specificity.
+
+The inablity for a machine learning method(like linear regression) to capture the true relationship is called as bias.
+
+The difference in fits between the training data set and the testing data set is called as a variance.
+
